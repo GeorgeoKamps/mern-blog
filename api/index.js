@@ -146,5 +146,5 @@ app.get('/post/:id', async (req, res) => {
     res.json(postDoc);
 })
 
-app.listen(4000);
-//app.listen(process.env.react_app_PORT);
+
+app.listen(process.env.react_app_PORT);
